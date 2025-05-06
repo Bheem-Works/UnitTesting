@@ -1,19 +1,12 @@
 import { describe, test, it, expect } from "vitest";
-import { strList } from "../src/max";
-import { whitespaceNumber } from "../src/WhiteSpace";
+import { trimString } from "../src/trimString";
 
+describe('trimString()',()=>{
+    it('should return the ... if it less then size',()=>{
+      expect(trimString('nima',2)).toEqual('ni...');
+    })
 
-describe('strList()', () => {
-  it('should be comma seprated numbers into an array',()=>{
-    expect(strList('1,2,3,4')).toEqual([1,2,3,4]);
-  });
-})
-
-describe('whitespaceNumber',() => {
-  it('should return correct white space fot the positive number 2 ',()=>{
-    expect(whitespaceNumber(2)).toEqual("\t,\t");
-  });
-  it('should return the correct white space for the negative numer -1',()=>{
-    expect(whitespaceNumber(-1)).toEqual("\t\t")
-  })
+    it('should retun the string if the size greater then the string',()=>{
+      expect(trimString('nima',6)).toEqual('nima');
+    })
 })
