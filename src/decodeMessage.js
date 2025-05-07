@@ -1,4 +1,4 @@
-function decode (str) {
+export function decode (str) {
     let storeDeCode = "";
     for(let i = 0; i < str.length;i++) {
         let char = str[i];
@@ -16,4 +16,4 @@ function decode (str) {
 
 const miso = 'miso';
 const misoDecode = 'nrhl';
-console.log(decode(misoDecode));
+console.log(decode('vim'));
