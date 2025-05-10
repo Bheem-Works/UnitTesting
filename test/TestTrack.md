@@ -19,3 +19,11 @@
     it is the safest function for the url.
     Process > user Input > import user input inside the encodeURIComponent > result 
     # I HAVE LEARNED THE ENCODEURICOMPONENTS; 
+
+
+    Date : may 10 2025 Saturday || What_Come_After
+    Question: "You have given a function and inside the parameter (string and a letter) and you have to show the result what is the next after the letter."
+    /[a-zA-Z]/ :-
+    > This is the methods where all the capital letter from a to z in a lowercase and in a uppercase. 
+    it is used for checked if the string has contain a lowercase or a uppercase;
+    # I HAVE LEARNED THE /[a-aZ-A]./ 
