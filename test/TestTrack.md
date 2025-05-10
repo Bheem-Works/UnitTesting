@@ -4,6 +4,11 @@
     > In this decode message i learn how to decode the message by using the utf and the mistake was done in the loops;
     i understand how the conditions and logical and the unicode works. 
     SimpleAlgorith : function (argument) > varaibles > loop > if " " > charCodeAt > string > return;  
+    This method returns an integer between 0 and 65535 representing the UTF-16 code unit value of the character at the specified index in the string.
+    Examples:-
+    
+    const str = "Hello";
+    console.log(str.charCodeAt(0)); // Output: 72
 
     Date : may 9 2025 Friday || AlbhabeticString
     Albhabetic String (ASCII) :- 
