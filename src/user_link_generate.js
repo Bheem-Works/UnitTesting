@@ -1,4 +1,4 @@
-function url(user) {
+export function url(user) {
     return `http://www.codewars.com/users/${encodeURIComponent(user)}`;
 }
 
