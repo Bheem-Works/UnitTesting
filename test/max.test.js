@@ -1,18 +1,18 @@
 import { describe, test, it, expect } from "vitest";
-import { url } from "../src/user_link_generate";
-import { come_after } from "../src/WhatComeAfter";
-// url 
-  describe('urlGenerator',()=>{
-    it('should return the url link of the code Wars user',()=>{
-      expect(url('vim')).toEqual('http://www.codewars.com/users/vim');
+import {recursive} from '../src/recursive';
+import {heigth} from '../src/catHeight';
+
+  // recursive
+  describe('recursive',()=>{
+    it('should return the times of the seconds paramater',()=>{
+      expect(recursive(3,5)).toEqual([5,5,5]);
+    })
+  });
+
+  // heigth
+  describe('heigth',()=>{
+    it('should return the three decimal value of the heights and 2.5 increment',()=>{
+      expect(heigth(0)).toEqual(2000000);
     })
   })
-
-
-  // comeAfter 
-  describe('come_after',()=>{
-    it('should return the next letter of aming  the i which next letter  n',()=>{
-      expect(come_after('aming','i')).toEqual('n');
-  })
-  })
-
+  
