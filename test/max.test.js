@@ -1,18 +1,9 @@
 import { describe, test, it, expect } from "vitest";
-import {recursive} from '../src/recursive';
-import {heigth} from '../src/catHeight';
+import {anagram} from '../src/isAnagram';
 
-  // recursive
-  describe('recursive',()=>{
-    it('should return the times of the seconds paramater',()=>{
-      expect(recursive(3,5)).toEqual([5,5,5]);
+  // isAnagram 
+  describe('anagram',()=>{
+    it('should return the true if the first argument letter match with the second',()=>{
+      expect(anagram('miso','imso')).toEqual(true);
     })
-  });
-
-  // heigth
-  describe('heigth',()=>{
-    it('should return the three decimal value of the heights and 2.5 increment',()=>{
-      expect(heigth(0)).toEqual(2000000);
-    })
-  })
-  
+  })  
