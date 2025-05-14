@@ -1,9 +1,13 @@
 import { describe, test, it, expect } from "vitest";
-import {anagram} from '../src/isAnagram';
+import {invertedRanges} from '../src/invertedRanges';
 
-  // isAnagram 
-  describe('anagram',()=>{
-    it('should return the true if the first argument letter match with the second',()=>{
-      expect(anagram('miso','imso')).toEqual(true);
+  // invertedRanges
+  describe('invertedRanges',()=>{
+    it('should return the gap number between the 100 ',()=>{
+      expect(invertedRanges([[10,40],[50,70]])).toEqual([
+        [ 0, 9 ],
+         [ 41, 49 ],
+        [ 71, 100 ]
+      ]);
     })
-  })  
+  })
