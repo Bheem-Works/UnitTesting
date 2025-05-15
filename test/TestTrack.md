@@ -70,3 +70,40 @@
 
     #### LOOPING CASE;  
     The defination is pending > .......
+
+    ## Date : may 14 2025 Wednesday || CreditCardChecker
+    Question in roman nepali > Credit Card valid xa ki xaina bhanera check garne function banaune ho, Luhn algorithm use garera.
+    👣 Step-by-step:
+    1. Right bata suru garne (last digit check digit ho).
+
+    2. Tyes check digit ko agadi ko duita dui digit lai double garne.
+
+    3. Double garepachi value 9 bhanda thulo xa bhane, tyes bata 9 subtract garne.
+    Example:
+
+    8 * 2 = 16 → 16 - 9 = 7
+
+    7 * 2 = 14 → 14 - 9 = 5
+
+    4. Aba sabai digit haru ko value add garne (sum).
+
+    5.Final sum 10 le divide hunchha (sum % 10 === 0) vane → card valid ✅
+    Na hune bhaye → invalid ❌
+
+    🧪 Input Format:
+    String ma aauxa, jasma 4-4 digit haru space le separate cha.
+    Example: "5457 6238 9823 4311"
+
+    🔚 Output:
+    Return true if valid, false if invalid.
+
+    #### I HAVE LEARNED ABOUT SEVERAL THING THAT ARE IN POINTS :
+    1. HOW TO CONVER THE WHITE SPACE TO NO SPACE
+    2. HOW TO CONVERT TO THE ARRAYS 
+    3. HOW TO SUM ALL OF STUFF
+    4. HOW TO GO TO THE LOOP THROUGHT FROM THE BACK BY USING THE --
+    5. HOW TO FIND THEY ODD AND MOVE 
+    6. HOW TO ADD IF IT IS GREATER THAN THE 9 
+    7. LEARN HOW THE SUM AND ACCUMALTOR ACTUALLY WORKS
+
+    
