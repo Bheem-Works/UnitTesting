@@ -1,13 +1,11 @@
 import { describe, test, it, expect } from "vitest";
-import {invertedRanges} from '../src/invertedRanges';
+import {creditCard} from '../src/CreditCardChecker';
 
-  // invertedRanges
-  describe('invertedRanges',()=>{
-    it('should return the gap number between the 100 ',()=>{
-      expect(invertedRanges([[10,40],[50,70]])).toEqual([
-        [ 0, 9 ],
-         [ 41, 49 ],
-        [ 71, 100 ]
-      ]);
+  // credit Card Checker
+
+  describe('creditCard',()=>{
+    it('should return the true if the number is vlaid accordig to the luh  ',()=>{
+      expect(creditCard("5457 6238 9823 4311")).toEqual(true);
     })
   })
+
