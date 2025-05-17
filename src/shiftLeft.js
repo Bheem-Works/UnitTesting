@@ -1,4 +1,4 @@
-    function shiftLeft(s,t){
+    export function shiftLeft(s,t){
         let i = s.length-1;
         let j = t.length-1;
         let currValue = 0;
