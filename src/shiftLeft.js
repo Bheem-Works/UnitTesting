@@ -10,4 +10,4 @@
         }
         return (s.length - currValue) + (t.length - currValue);
     }
-    console.log(shiftLeft('iso','t-iso'));
+    console.log(shiftLeft('miso','tiso'));

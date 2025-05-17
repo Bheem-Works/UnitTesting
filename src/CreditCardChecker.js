@@ -17,7 +17,7 @@
                 }
             }
 
-            sum += digit;
+            sum += digit; 
         }
         return sum % 10 === 0;
     }
