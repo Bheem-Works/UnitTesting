@@ -106,4 +106,13 @@
     6. HOW TO ADD IF IT IS GREATER THAN THE 9 
     7. LEARN HOW THE SUM AND ACCUMALTOR ACTUALLY WORKS
 
-    
+    ## "Power went out at home, so I couldn’t submit the test for a day's . That’s why I'm late. From now on, I’ll keep it on track and submit it the same day."
+
+    ## Date : may 17 2025 sunday || ShiftLeft;
+    Question : You have given a two string and you have to match that string from the left and if it doesn't matched then shew how many letter , words are un matched. If it is then show 0; 
+    For Example : 'miso','tiso' > 2 : m & t are not matched❌ & others words matched✅;
+
+    Algorithm : make a variable and store two string > take a two string length - 1 > set the currVale 0 > use while loops and match the conditon > increment value > decrement index of the two string > return total length - matching value.
+
+    #### I HAVE LEARNED : HOW TO REVERSE THE STRING AND MATCH;
+    > YOU CAN REVERSE THE STRING BY USIN THE LOOPS AND USE THE .LENGTH-1 WHICH WILL GIVE YOU THE LAST INDEX AND FROM THAT BY USING THE LOOPS YOU CAN DECREMENT THE VALUE. AND GET THE REVERSED STRING; 
