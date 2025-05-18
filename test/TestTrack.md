@@ -116,3 +116,10 @@
 
     #### I HAVE LEARNED : HOW TO REVERSE THE STRING AND MATCH;
     > YOU CAN REVERSE THE STRING BY USIN THE LOOPS AND USE THE .LENGTH-1 WHICH WILL GIVE YOU THE LAST INDEX AND FROM THAT BY USING THE LOOPS YOU CAN DECREMENT THE VALUE. AND GET THE REVERSED STRING; 
+
+
+    ## Date : may 18 2025 Monday || PhoneNumberGenerate 
+    Question : You have to generate a phone number the phone number maximum lenght is 10 and betwen that you have to generate the phone Number of the any country.
+    Algorithm : input>slice>join>return> use symbol 
+
+    ### I  HAVE LERNED HOW TO USE THE RETURN AND THE IMPROTANCE OF THE SLICE METHODS.
