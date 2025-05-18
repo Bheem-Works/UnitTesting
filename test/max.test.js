@@ -1,11 +1,10 @@
 import { describe, test, it, expect } from "vitest";
-import {creditCard} from '../src/CreditCardChecker';
+import {generateNumber} from '../src/phoneNumber'
 
-  // credit Card Checker
 
-  describe('creditCard',()=>{
-    it('should return the true if the number is vlaid accordig to the luh  ',()=>{
-      expect(creditCard("5457 6238 9823 4311")).toEqual(true);
+  describe('generateNumber',()=>{
+    it('should return the correct phone number',()=>{
+      expect(generateNumber([1,2,3,4,5,6,7,8,9,10])).toEqual("(123 + 456 - 78910)");
     })
   })
 
