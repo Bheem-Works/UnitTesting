@@ -123,3 +123,10 @@
     Algorithm : input>slice>join>return> use symbol 
 
     ### I  HAVE LERNED HOW TO USE THE RETURN AND THE IMPROTANCE OF THE SLICE METHODS.
+
+
+    ## Date : may 19 Tuesday || Two set equal
+    Question : 
+    
+    Algorithm : Total > not divisible by 2 return empty > find the half > create a two new empty array  & sum varaible > use greedy methods > for > if : greater than half > push to set 1 if not then push to set 2 > return ;
+    
