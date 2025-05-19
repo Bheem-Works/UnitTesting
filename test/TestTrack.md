@@ -126,7 +126,9 @@
 
 
     ## Date : may 19 Tuesday || Two set equal
-    Question : 
-    
+    Question In Nepali : तिमीलाई एउटा नम्बर n दिइन्छ (जसको मान 1 देखि 1,000,000 सम्म हुन सक्छ)। अब तिमीले 1 देखि n सम्मका सबै संख्या दुई वटा सेटमा बाँड्नु पर्छ — दुबै सेटको योगफल (sum) बराबर हुनुपर्छ। 
+
     Algorithm : Total > not divisible by 2 return empty > find the half > create a two new empty array  & sum varaible > use greedy methods > for > if : greater than half > push to set 1 if not then push to set 2 > return ;
+
+    ### U GAVE LEARNED ABOUT THE GREEDY METHODS AND HOW TO USE THE WHILE LOOPS 
     
