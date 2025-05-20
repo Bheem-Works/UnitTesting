@@ -1,12 +1,7 @@
 import { describe, test, it, expect } from "vitest";
-import {generateNumber} from '../src/phoneNumber'
 import {twoSetEqual} from '../src/TwoSetEqualSum';
+import {wave} from '../src/MexicanWave';
 
-  describe('generateNumber',()=>{
-    it('should return the correct phone number',()=>{
-      expect(generateNumber([1,2,3,4,5,6,7,8,9,10])).toEqual("(123 + 456 - 78910)");
-    })
-  })
 
   describe("twoSetEqual",()=>{
     it('shoud return the equal value to the both set',()=>{
@@ -14,3 +9,9 @@ import {twoSetEqual} from '../src/TwoSetEqualSum';
     });
   });
 
+  // mexican wave 
+  describe('wave',()=>{
+    it('should return the upperCase of the next string word as sequnece',()=>{
+      expect(wave('vim')).toEqual(['Vim','vIm','viM']);
+    })
+  })
