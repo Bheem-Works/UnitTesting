@@ -1,5 +1,5 @@
 
-    function twoSetEqual (n) {
+    export function twoSetEqual (n) {
         const total = (n * (n+1)/2); 
         if(total % 2 !== 0 ) return []; 
         const half = total / 2; // why ? every two set equal to be half value;
