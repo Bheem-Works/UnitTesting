@@ -131,4 +131,13 @@
     Algorithm : Total > not divisible by 2 return empty > find the half > create a two new empty array  & sum varaible > use greedy methods > for > if : greater than half > push to set 1 if not then push to set 2 > return ;
 
     ### U GAVE LEARNED ABOUT THE GREEDY METHODS AND HOW TO USE THE WHILE LOOPS 
+
+    ## Date : may 20 Wednesday || MexicanWave 
+    Question in English : In this simple Kata your task is to create a function that turns a string into a Mexican Wave. You will be passed a string and you must return an array of strings where an uppercase letter is a person standing up.
+
+    Algorithm : emptyArrayForStore > loop through > use the continue if it is white space > conver it to the new array by using split > convert it to the upperCase > and join it
+
+    ###  I HAVE LEARNED ABOUT THE CONTINUE AND HOW THE SPLIT WORKS.
+    > Split : helps to create a refresh new array after each calls. Conitnue: it helps to skip the loops and continue;
+    
     
