@@ -1,3 +1,4 @@
+
     var counter = function (intialCount) {
             let count = intialCount;
          return {
@@ -16,7 +17,8 @@
          }
     }
 
-    const createCounter = counter(3);
-    console.log(createCounter.increment());
-    console.log(createCounter.increment());
-    console.log(createCounter.decrement());
+    // let's do a arrays methods and create a own system;
+    const counterInit = counter(3);
+    const call = ["increment","decrement","reset"];
+    const result = call.map(func => counterInit[func]());
+    console.log(result);

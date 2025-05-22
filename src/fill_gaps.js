@@ -23,4 +23,4 @@
         return result;
     }
 
-    console.log(fill_gaps([1,null,null,3,2,null,4]));
+    console.log(fill_gaps([1,null,null,3,2,null,4]));c
