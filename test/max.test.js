@@ -13,6 +13,9 @@ import {counter} from '../src/counterii';
 
   describe('counter',()=>{
     it('shoud return the object with the three function increment , decrement and reset and they must work properly ',()=>{
-      expect(counter()).toEqual();
+      const counterInit = counter(3);
+      const call = ["increment","decrement","reset"];
+      const result = call.map(fnc => counterInit[fnc]());
+      expect(result).toEqual([4,3,0]);
     })
   })
