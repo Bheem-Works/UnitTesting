@@ -1,5 +1,5 @@
 
-    var counter = function (intialCount) {
+   export var counter = function (intialCount) {
             let count = intialCount;
          return {
             increment: function () {

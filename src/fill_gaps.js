@@ -1,4 +1,4 @@
-    function fill_gaps (timeSheet) {
+    export function fill_gaps (timeSheet) {
         let result = [];
         for(let i = 0; i < timeSheet.length; i++) {
             result[i] = timeSheet[i];
@@ -23,4 +23,4 @@
         return result;
     }
 
-    console.log(fill_gaps([1,null,null,3,2,null,4]));c
+    console.log(fill_gaps([1,null,null,3,2,null,4]));
