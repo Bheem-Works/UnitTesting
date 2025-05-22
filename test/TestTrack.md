@@ -140,4 +140,10 @@
     ###  I HAVE LEARNED ABOUT THE CONTINUE AND HOW THE SPLIT WORKS.
     > Split : helps to create a refresh new array after each calls. Conitnue: it helps to skip the loops and continue;
     
+    ## Date : may 21 Thursday : Fill_gaps
+    Question in roman nepali : for example > you have value value like this 1,null,null,1,3,null,null,3 = So here you have a null value and and you have to replace it with the numeber if the first and the last number match with each other then change the value to it, and so on.
+
+    Algorithm : copy the original value > if it not null then acess > run the whle loop and if it is null then increase index > if it math with the startvalue and end then> run teh loop and change the between value > minus the index by 1 and set to the end valaue and move to the next line.
+    
+    ### I HAVE LEARNED HOW THE ALGORITHM WORKS AND THE HOW TO CHANGE THE BETWEEN THE VALUE; 
     
