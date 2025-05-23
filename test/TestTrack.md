@@ -145,5 +145,11 @@
 
     Algorithm : copy the original value > if it not null then acess > run the whle loop and if it is null then increase index > if it math with the startvalue and end then> run teh loop and change the between value > minus the index by 1 and set to the end valaue and move to the next line.
     
-    ### I HAVE LEARNED HOW THE ALGORITHM WORKS AND THE HOW TO CHANGE THE BETWEEN THE VALUE; 
+    ### I HAVE LEARNED HOW THE ALGORITHM WORKS AND THE HOW TO CHANGE THE BETWEEN THE VALUE;
+
+
+    ## Date : may 23 Friday : who_likes 
+    Question in roman nepali : if you have a empty array then you should return no one like's you and if it not then you have to print the name and add the text like you and if there is more then the 3 you have to say more than like's you. 
+
+    ###  I HAVE LEARNED HOW ABOU THE IF ELSE AND SOME LOGICAL STUFF.  
     
