@@ -1,6 +1,6 @@
     export function who_likes(names) {
         if(names.length === 0) {
-            return `No one likes `;
+            return `No one likes`;
         } else if(names.length === 1) {
             return `${names[0]} likes it `;
         } else if(names.length === 2) {
