@@ -1,8 +1,9 @@
     import {test,it,describe,expect} from "vitest";
-    import {shiftLeft} from '../src/shiftLeft';
+    import {encryptThis} from '../src/encryptThis'
 
-    describe('shiftLeft',()=>{
-        it('should return the number according to how many string words are unMatch ',()=>{
-            expect(shiftLeft('miso','tiso')).toEqual(2);
+    describe('encryptThis',()=>{
+        it('should retunr the first index char code ascii and swap the value of the second and the last index',()=>{
+            expect(encryptThis("dummy")).toEqual("100ymmu");
         })
     })
+    

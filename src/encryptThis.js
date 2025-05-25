@@ -1,4 +1,4 @@
-    function encryptThis(word) {
+    export function encryptThis(word) {
         let arr = word.split('');
         arr[0] = word.charCodeAt(0);
 
@@ -10,3 +10,4 @@
         return arr.join("");
     }
     console.log(encryptThis("demo"));
+    console.log(encryptThis("dummy"));
