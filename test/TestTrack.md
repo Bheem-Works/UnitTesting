@@ -153,3 +153,13 @@
 
     ###  I HAVE LEARNED HOW ABOU THE IF ELSE AND SOME LOGICAL STUFF.  
     
+
+    ## Date : may 25 : Sunday 
+    Question : You want to create secret messages which can be deciphered by the Decipher this! kata. Here are the conditions:
+        Your message is a string containing space separated words.
+        You need to encrypt each word in the message using the following rules:
+        The first letter must be converted to its ASCII code.
+        The second letter must be switched with the last letter
+        Keepin' it simple: There are no special characters in the input.
+
+        Algorithm : Split > charCodeAt of the first index > if it greater then 2 > swap the 2nd value to the end > return and join ;
