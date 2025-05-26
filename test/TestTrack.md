@@ -163,3 +163,9 @@
         Keepin' it simple: There are no special characters in the input.
 
         Algorithm : Split > charCodeAt of the first index > if it greater then 2 > swap the 2nd value to the end > return and join ;
+
+
+    ## Date : may 26 : Monday
+    Question in roman nepali : Timi lai number deko hunca timilai tyo number ko total sum nikalnu prne hunca without use of the reduce methods. Reduce methods jstai tarikale or reduce methods nai banau. 
+
+    Algorithm : intial value > loop > pass the index in function > return > call it in the console.log;
