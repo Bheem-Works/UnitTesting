@@ -1,9 +1,9 @@
     import {test,it,describe,expect} from "vitest";
-    import {encryptThis} from '../src/encryptThis'
+    import {reduce} from '../src/leetCode/reduce'
 
-    describe('encryptThis',()=>{
-        it('should retunr the first index char code ascii and swap the value of the second and the last index',()=>{
-            expect(encryptThis("dummy")).toEqual("100ymmu");
-        })
+    //Reduce
+    describe('reduce',()=>{
+        it('should work like as the reduce methods ',()=>{
+            expect(reduce([1,2,3,4,5],(acc,curr) => acc + curr, 0)).toEqual(15);
+        });
     })
-    

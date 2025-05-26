@@ -1,5 +1,6 @@
      
-     function reduce(num,fn,init){
+     // leet Code 
+     export function reduce(num,fn,init){
         let total = init;
         for(let i = 0; i < num.length; i++) {
             total = fn(total,num[i])
