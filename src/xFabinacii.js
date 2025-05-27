@@ -1,5 +1,5 @@
 
-    function xFabinacci(value,n) {
+    export function xFabinacci(value,n) {
         if(n <= 0) return [];
         if(n <= value.length) return value.splice(0,n);
 
