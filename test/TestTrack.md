@@ -186,3 +186,11 @@
     algorithm > return the function > for loops of the functions > reverse it > set the fn value to the x parameter inside value > return the value;
 
     ### I HAVE LEARNED ABOUT THE FUNCTION RETURN STATEMENT AND THE OF LOOPS; 
+
+
+    ## Date : may 29 : thursday
+    Questions in roman nepali : Timilai funciton diyeko hunca ra timilai tyo function ko use garerw timilai tyo tyo function bata empty arra ra , hataera text lekhnu prne hunca.
+
+    algorithm > create a result [] > loop through > match the condition by using the or methods > push it to the result varaibles > return adn join it and add the . at the last. 
+
+    ### I HAVE LEARNED ABOUT LIKE JOIN AND THE OR METHODS;
