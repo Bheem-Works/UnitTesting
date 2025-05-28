@@ -1,6 +1,6 @@
     import {test,it,describe,expect} from "vitest";
     import {composition} from '../src/leetCode/fnComposition';
-
+    import {makeSentence} from '../src/makeSentence';
 
 
     describe('composition',()=>{
@@ -10,3 +10,9 @@
         })
     })
 
+
+    describe('MakeSentences',()=>{
+        it('should ignore the empt space and the between comaa values',()=>{
+            expect(makeSentence(['hello', ',','nima'])).toEqual('hello nima.');
+        })
+    })
