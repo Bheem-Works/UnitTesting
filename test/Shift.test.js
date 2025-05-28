@@ -1,17 +1,12 @@
     import {test,it,describe,expect} from "vitest";
-    import {fabinacci} from '../src/fabinocii';
-    import {xFabinacci} from '../src/xFabinacii';
-
-    describe('fabinocii',()=>{
-        it('should return the fabinocii number ',()=>{
-            expect(fabinacci(3)).toEqual([0,1,1]);
-        });
-    })
+    import {composition} from '../src/leetCode/fnComposition';
 
 
-    describe('xFabinacci',()=>{
-        it('it should return fabinacii numbers according to the numbers',()=>{
-            expect(xFabinacci([0,1],10)).toEqual([ 0, 1,  1,  2,  3, 5, 8, 13, 21, 34]);
+
+    describe('composition',()=>{
+        it('should run from the last index and give the accumlate the value from the last',()=>{
+            const fn = composition([x => x + 1, x => x * 2]);
+            expect(fn(3)).toEqual(7);
         })
     })
 
