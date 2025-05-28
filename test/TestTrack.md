@@ -169,3 +169,20 @@
     Question in roman nepali : Timi lai number deko hunca timilai tyo number ko total sum nikalnu prne hunca without use of the reduce methods. Reduce methods jstai tarikale or reduce methods nai banau. 
 
     Algorithm : intial value > loop > pass the index in function > return > call it in the console.log;
+
+    ## Date : may 27 : Tuesday 
+    Quesitons in roman nepali : Timilai xBonacci sequence deko hunca ra tyesko timlai output nikalnu prne hunca target value anushar;
+
+    Algorithm : return if it is less then 0 > return all index if it equal or less then the n > copy the original value > if the length is leess then the n > declare sum = 0 > use for and minus the copy result value to the function argumnet value push the all value to the sum and return the result;
+
+    ### I HAVE LEARNED ABOUT THE FABINACCI SEQUENCE COMPLETETLY;
+     
+     FABINACCI SEQUENCE > IT IS A SEQUENCE WHERE THE LAST FO THE TWO VALUE WILL BE ADDED TO THE EACH OTHER. FORMULA [0,1];
+
+    ## Date : may 28 : wednesday 
+    Questions in roman nepali : Timlai function diyeko hunca ani tyo function vitra vayeko x  ko value single value nikalnu paro. Tara x ko chai grere timilai multiple function array ko through bata banaunu paro ra tyeslai reverse grerea ra accumaltor navai reduce use grere tyesko total value dekhaunu paro. 
+    This is the leetCode problems. solved by using the youtube toturial video of the neetCode io;
+
+    algorithm > return the function > for loops of the functions > reverse it > set the fn value to the x parameter inside value > return the value;
+
+    ### I HAVE LEARNED ABOUT THE FUNCTION RETURN STATEMENT AND THE OF LOOPS; 
