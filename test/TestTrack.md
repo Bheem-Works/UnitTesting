@@ -194,3 +194,7 @@
     algorithm > create a result [] > loop through > match the condition by using the or methods > push it to the result varaibles > return adn join it and add the . at the last. 
 
     ### I HAVE LEARNED ABOUT LIKE JOIN AND THE OR METHODS;
+
+
+    #### SORRY DUE TO EXAM I AM QUITE BUSSY BUT YEH I AM DOING PUSHING BUT NOT DOING TO WRITE THE NOTE AFTER THE
+    EXAM I WILL WRITE MY ALL NOTES AND DATES OF THE TEST.
