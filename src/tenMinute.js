@@ -1,7 +1,7 @@
 
     // Ten minutes walk : This is the code wars question from the kata 6 
 
-    function isValidWalk(walk) {
+    export function isValidWalk(walk) {
     // if it is eqal to the 10 length then return true if it is not then return the false;
     if(walk.length !== 10) return false;
     
@@ -22,7 +22,7 @@
     // examples : n === 'n' 1 , s === 's' -1 > so it becomes the true because it is zero the condition is similiar to the length then it would become the zero. 
     // which is also equal to the value and return the true if the north x value is 3 and the south value is 2 then it is not eqault to so it becomes the false; 
     // })
-    
+
     return x === 0 && y === 0; // if the x and the y is 0 then it return the true;
     }
 

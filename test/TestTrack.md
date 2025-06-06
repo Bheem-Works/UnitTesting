@@ -200,4 +200,9 @@
     EXAM I WILL WRITE MY ALL NOTES AND DATES OF THE TEST.
 
 
-    
+    ### Date : june 6 : Friday 
+    Question in the roman nepali : Timilai auta function diyeko hunca ho tyo function bata timle pata lagaunu parcha tyo 0 snga equal cha ki nai cha vane tru chaina vane false dinu prne hucna. Auta single block letter ko 1 minute hunca so tyesai gare 10 ota smw hunca. And you have to check 
+
+    Algorithm : if it is not equal to the 10 length then return false > if it is declare the varaible of the x and the y whether the x mean the south and the north and the y mean the east and the west > loop through from it > if the conditoin meets then return then increment and decrement > return the true if it is equal to the zero. 
+
+    ### I HAVE LEARNED ABOUT THE OF AND THE INTIALING AND OTHE'R THING'S. IT WAS HELPFUL TAKS AND PROBLEM FOR ME. 
