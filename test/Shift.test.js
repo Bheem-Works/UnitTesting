@@ -2,7 +2,7 @@
     import {addTwoPromises} from '../src/leetCode/addTwoPromise';
     import {memomize} from '../src/leetCode/memoize';
     import {isValidWalk} from '../src/tenMinute';
-
+    import {isRubby} from '../src/CodinMeetUpThree';
     // date : june 2; 
     describe('addTwoPromises',()=>{
         it('should return the sum number if it is resolved',async () => {
@@ -28,6 +28,21 @@
     describe('isValidWalk',()=>{
         it('should return the tru if the answer equal to the 0 if it is not then return the false',()=>{
             expect(isValidWalk(['n','s','n','s','n','s','n','s','n','s'])).toEqual(true);
+        })
+    })
+
+
+    // Date : 7th june; 
+    describe('rubyValid',()=>{
+        it('should return the true if the arrays objects properties language contains ruby ',()=>{
+            const arrayValid = [
+                {
+                    firstName : 'vim',
+                    lastName : 'magar',
+                    language : 'Ruby',
+                }
+            ]
+            expect(isRubby(arrayValid)).toEqual(true);
         })
     })
 

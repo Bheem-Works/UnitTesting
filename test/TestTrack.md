@@ -206,3 +206,10 @@
     Algorithm : if it is not equal to the 10 length then return false > if it is declare the varaible of the x and the y whether the x mean the south and the north and the y mean the east and the west > loop through from it > if the conditoin meets then return then increment and decrement > return the true if it is equal to the zero. 
 
     ### I HAVE LEARNED ABOUT THE OF AND THE INTIALING AND OTHE'R THING'S. IT WAS HELPFUL TAKS AND PROBLEM FOR ME. 
+
+    ## Date : june 7 : Saturday 
+    Question in roman nepali : you have given an arrays object and if the properties contian the language:ruby then you have to return the true;
+
+    Algorithm : loop through length > conver to the arrya by using the Object.values() > check if it matched or not 
+
+    ### I HAVE LEARNED THE OBJECT.VALUES() AND MANY OTHER'S FUNCTION HOW TO USE IT.  
