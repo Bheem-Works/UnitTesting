@@ -3,6 +3,8 @@
     import {memomize} from '../src/leetCode/memoize';
     import {isValidWalk} from '../src/tenMinute';
     import {isRubby} from '../src/CodinMeetUpThree';
+    import { sentenceToNumber } from "../src/sentenceCalculator";
+
     // date : june 2; 
     describe('addTwoPromises',()=>{
         it('should return the sum number if it is resolved',async () => {
@@ -46,4 +48,9 @@
         })
     })
 
-
+ // Date : 18th june; 
+describe('sentenceToNumber',()=>{
+  it('should give increment the value at once if it is small letter or digit. and twice if it is the capital else return 0',()=>{
+    expect(sentenceToNumber("aB3$zZ")).toEqual(86);
+  })
+})
