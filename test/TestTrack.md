@@ -213,3 +213,11 @@
     Algorithm : loop through length > conver to the arrya by using the Object.values() > check if it matched or not 
 
     ### I HAVE LEARNED THE OBJECT.VALUES() AND MANY OTHER'S FUNCTION HOW TO USE IT.t  
+
+    ### Date : 18th June : Wednesday; 
+    Question : [a-z] = a:1, b:2; [A-Z] = A:1, B: 2; [1-9] = 1 : 1, 2 : 2;
+    
+    Alogrithm : create a total varaibles for store the toal value > loop through > use the regix and compare > use the charCodAt() and minus
+    from the value; 
+
+    #### I have learned about the charCodeAt() and the regix.
